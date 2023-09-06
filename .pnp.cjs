@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@popperjs/core", "npm:2.11.8"],\
             ["@types/react", "npm:18.2.21"],\
             ["@types/react-dom", "npm:18.2.7"],\
             ["@vitejs/plugin-react", "virtual:01765ee47cb93d89034e9ebde94ff5774a5c97b5d9bbdf38135d4e196273348fe4a66e76a84e39db8a34a5d3845c8842cec6cb3154f70aa5191c3ca8c33e8a61#npm:4.0.4"],\
@@ -794,6 +795,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@popperjs/core", [\
+        ["npm:2.11.8", {\
+          "packageLocation": "./.yarn/cache/@popperjs-core-npm-2.11.8-f1692e11a0-e5c69fdebf.zip/node_modules/@popperjs/core/",\
+          "packageDependencies": [\
+            ["@popperjs/core", "npm:2.11.8"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@remix-run/router", [\
         ["npm:1.8.0", {\
           "packageLocation": "./.yarn/cache/@remix-run-router-npm-1.8.0-a97098c5e8-f754f02d3b.zip/node_modules/@remix-run/router/",\
@@ -1173,7 +1183,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/__virtual__/bootstrap-virtual-4c80f77121/0/cache/bootstrap-npm-5.3.1-9ad45c2765-f8176376aa.zip/node_modules/bootstrap/",\
           "packageDependencies": [\
             ["bootstrap", "virtual:01765ee47cb93d89034e9ebde94ff5774a5c97b5d9bbdf38135d4e196273348fe4a66e76a84e39db8a34a5d3845c8842cec6cb3154f70aa5191c3ca8c33e8a61#npm:5.3.1"],\
-            ["@popperjs/core", null],\
+            ["@popperjs/core", "npm:2.11.8"],\
             ["@types/popperjs__core", null]\
           ],\
           "packagePeers": [\
@@ -3485,6 +3495,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["react-crud", "workspace:."],\
+            ["@popperjs/core", "npm:2.11.8"],\
             ["@types/react", "npm:18.2.21"],\
             ["@types/react-dom", "npm:18.2.7"],\
             ["@vitejs/plugin-react", "virtual:01765ee47cb93d89034e9ebde94ff5774a5c97b5d9bbdf38135d4e196273348fe4a66e76a84e39db8a34a5d3845c8842cec6cb3154f70aa5191c3ca8c33e8a61#npm:4.0.4"],\
